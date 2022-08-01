@@ -4,10 +4,10 @@ If you haven't ever heard of SolidJS, see this [100 second video](https://www.yo
 
 To run open two terminal windows. 
 
-Cd first into the root folder and run nvm use. To align your node version.
+For both windows, cd first into the root folder and run `nvm use`. To align your node version.
 
-Then cd into the server folder and run npx ts-node index.ts
-Then cd into the client folder in your other window and run yarn dev 🚀
+Then cd into the server folder and run `npx ts-node index.ts`
+Then cd into the client folder in your other window and run `yarn dev` 🚀
 
 Future things to add: 
 1. Docker support

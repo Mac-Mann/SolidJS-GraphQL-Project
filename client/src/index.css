@@ -1,0 +1,57 @@
+* {
+  text-align: center;
+}
+
+body {
+  margin: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 1.6rem;
+  position: relative;
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #82accf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+.checkbox {
+  -ms-transform: scale(1.4); /* IE */
+  -moz-transform: scale(1.4); /* FF */
+  -webkit-transform: scale(1.4); /* Safari and Chrome */
+  -o-transform: scale(1.4); /* Opera */
+  transform: scale(1.4);
+  text-align: top;
+}
+
+.todoItem {
+  padding-left: .75rem;
+}
+
+.todo {
+  display: block;
+  margin: 1rem;
+  text-align: left;
+}
+
+.checkbox {
+  position: relative;
+  top: -1.25px;
+}
+
+.checkbox:checked + .todoItem {
+  text-decoration: line-through !important;
+}
+
+.button {
+  margin-left: 0.75rem !important;
+  position: relative;
+  top: -2px;
+}
+
+.addTodo {
+  text-align: right;
+  position: fixed !important;
+  display: block;
+  width: 100%;
+  margin-left: -2.75rem;
+}
